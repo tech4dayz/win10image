@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Colonial Protected Network</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>436F6C6F6E69616C2050726F746563746564204E6574776F726B</hex>
+			<name>Colonial Protected Network</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>false</protected>
+				<keyMaterial>!P0w3r0fw3</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>
